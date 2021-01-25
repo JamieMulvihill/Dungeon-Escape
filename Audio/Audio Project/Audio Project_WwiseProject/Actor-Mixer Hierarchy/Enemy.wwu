@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03951655-1C73-4702-9C34-C6BC146B64B1}" SchemaVersion="94" RootDocumentID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}">
+	<AudioObjects>
+		<WorkUnit Name="Enemy" ID="{03951655-1C73-4702-9C34-C6BC146B64B1}" OwnerID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="EnemyStomps" ID="{DCB8CDD6-D896-4203-BA52-CE5CF7C64823}" ShortID="511093201">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{98029901-DB1C-41B2-A4BE-8F8065DC9B00}" ShortID="960754684">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="OcculusionLowPass" ID="{C3B34D38-5232-4E72-B1F7-9F6F47349EBF}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E5A79ED4-8E79-4B1F-9D7D-07E56F161E4C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>68</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FD26EAF3-57D1-4B98-A5D8-E0F569CD4B2C}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RenderEffect0" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{432E719F-626E-4182-BF56-AFA71EDAF5C7}" ShortID="709479208">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="OcculusionVolume" ID="{EEB93527-3195-4D80-B231-F184882179B7}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F42797C6-FFD7-41B2-81CC-5CEE51634BB3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.11505</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="MonsterStompAttenuation" ID="{7E3EDA24-2F6F-4B18-8162-BA9C35078E61}" WorkUnitID="{B30BD5E0-C2C9-407B-9715-7D6A871ABE77}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+							<ObjectRef Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Wall_Compressor" ID="{B6AA118A-2013-4C68-BECE-D4FE3053C48C}" WorkUnitID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Stomps" ID="{8CB67649-E454-45FB-9BEA-1CBF1EB1BBF2}" ShortID="401398391">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A98705B7-A6F3-4630-A07A-67DD9D402091}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="22"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2B783FBA-456D-4F72-B8CB-AA334C4843E3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-783"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="MonsterStompAttenuation" ID="{7E3EDA24-2F6F-4B18-8162-BA9C35078E61}" WorkUnitID="{B30BD5E0-C2C9-407B-9715-7D6A871ABE77}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+								</Reference>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect2">
+									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+										<Effect Name="Have_U_Ever_Been_Outside_(Custom)" ID="{F00278CC-221B-4890-A9C9-16B626A22C3D}" ShortID="789225792" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="1"/>
+												<Property Name="Density" Type="Real32" Value="0"/>
+												<Property Name="Diffusion" Type="Real32" Value="0"/>
+												<Property Name="DryLevel" Type="Real32" Value="-12.3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-4"/>
+												<Property Name="ERPattern" Type="int32" Value="4"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+												<Property Name="HFDamping" Type="Real32" Value="0.5"/>
+												<Property Name="InputLFELevel" Type="Real32" Value="-9.3"/>
+												<Property Name="LFELevel" Type="Real32" Value="-7.3"/>
+												<Property Name="PreDelay" Type="Real32" Value="0"/>
+												<Property Name="Quality" Type="int32" Value="6"/>
+												<Property Name="RoomShape" Type="Real32" Value="6"/>
+												<Property Name="RoomSize" Type="Real32" Value="-83"/>
+												<Property Name="StereoWidth" Type="Real32" Value="71"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="EnemyStomp1" ID="{6893EE01-45B9-4F78-B2AE-B78742AFDEF8}" ShortID="613728190">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyStomp1" ID="{8549055E-ADF2-48ED-8821-DA07CB38961F}" ShortID="729658140">
+											<Language>SFX</Language>
+											<AudioFile>EnemyStomp1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyStomp1" ID="{8549055E-ADF2-48ED-8821-DA07CB38961F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyStomp2" ID="{A10D530D-D138-4E78-A33A-208578FA4486}" ShortID="374551207">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyStomp2" ID="{AEFDF825-2910-4CD8-9CF0-8693EBEF042D}" ShortID="717748139">
+											<Language>SFX</Language>
+											<AudioFile>EnemyStomp2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyStomp2" ID="{AEFDF825-2910-4CD8-9CF0-8693EBEF042D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyStomp3" ID="{E267AC24-D63C-4E2B-A695-FE75BD05DAC8}" ShortID="196510578">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyStomp3" ID="{949704E5-F439-4A1E-8BEA-88F6AF846FD5}" ShortID="906245310">
+											<Language>SFX</Language>
+											<AudioFile>EnemyStomp3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyStomp3" ID="{949704E5-F439-4A1E-8BEA-88F6AF846FD5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<SwitchContainer Name="EnemySounds" ID="{C1C761F8-24EE-415C-BA44-9F848E355D72}" ShortID="838455719">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{EA0E0D81-36E8-414D-998D-69A3D7CAA9EE}" ShortID="634285753">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="OcculusionLowPass" ID="{C3B34D38-5232-4E72-B1F7-9F6F47349EBF}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A8E15A9C-0C36-437B-A14B-91BE93115F6D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>60</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2E4ED2B5-ECDF-44D8-B49F-0C6D4F2C3A99}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="303"/>
+											<Property Name="Min" Type="Real64" Value="-278"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{83457C7C-0521-4402-8FE6-E059A123BD9F}" ShortID="704181650">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="OcculusionVolume" ID="{EEB93527-3195-4D80-B231-F184882179B7}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CB393679-96CE-4C6D-B78E-0BC4F8449912}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.07208</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-150.55305</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="MonsterStompAttenuation" ID="{7E3EDA24-2F6F-4B18-8162-BA9C35078E61}" WorkUnitID="{B30BD5E0-C2C9-407B-9715-7D6A871ABE77}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Eat" ID="{82198CFF-0646-4C9E-B6D6-D3A3D2F0DAF3}" WorkUnitID="{85C3A9D4-E760-40A2-9623-925EB4854C3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="EnemySoundSwitch" ID="{6DF09497-65A5-463C-9B52-28FB134FD9DE}" WorkUnitID="{85C3A9D4-E760-40A2-9623-925EB4854C3C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SenseSound" ID="{5C7F8C8F-B718-466F-BEBC-10BDE788A2D8}" ShortID="670361033">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="MonsterStompAttenuation" ID="{7E3EDA24-2F6F-4B18-8162-BA9C35078E61}" WorkUnitID="{B30BD5E0-C2C9-407B-9715-7D6A871ABE77}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+								</Reference>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Boomerang" ID="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{4DBADF3D-FF58-48B3-91F0-243017E7BD5A}" ShortID="476019570" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+												<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="2"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="835"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="4373"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="2938"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="QFactorBand1" Type="Real32" Value="57.6"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect3">
+									<Custom>
+										<Effect Name="Wwise_Time_Stretch_(Custom)" ID="{C46B153F-6EBA-4F39-A4F7-A98756174E5A}" ShortID="1049698827" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+											<PropertyList>
+												<Property Name="TimeStretch" Type="Real32" Value="238">
+													<RTPCList>
+														<RTPC Name="" ID="{7130741A-BD65-4AD2-857E-C8839CC8AD31}" ShortID="37611279">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="EnemySense" ID="{1CA4BCFE-D861-4694-8019-0BA31745CD96}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{541421B0-2399-420B-9474-05381B1F0688}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>150</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>280</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="WindowSize" Type="int32" Value="256"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One" ID="{7D71FF65-7396-4A41-8DFD-38BCD68B1697}" ShortID="1023852671" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="NoiseLevel" Type="Real32" Value="0"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-96"/>
+										<Property Name="Osc2Level" Type="Real32" Value="-96"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{1CDB064A-61EB-4CEA-A460-6DD40DDD1001}" ShortID="976431264">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{796192F5-AF59-4E6D-AEE4-6E0D734121C6}" ShortID="1036045526">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0C998FCD-8046-4BD3-A54D-C857CAFBD9E6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One" ID="{7D71FF65-7396-4A41-8DFD-38BCD68B1697}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AttackSound" ID="{F2263A5A-8034-44B8-AAEC-3AD6AA576B7A}" ShortID="749161897">
+							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RenderEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RenderEffect2" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="EffectConversionSettings" ID="{C2BDCD95-5F00-4705-9F81-3CDB32C1E482}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Pitch_Shifter_(Custom)" ID="{3DAD81F5-C971-482A-BBCD-29B36302E7F6}" ShortID="11429007" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<PropertyList>
+												<Property Name="DelayTime" Type="Real32" Value="15"/>
+												<Property Name="FilterFrequency" Type="Real32" Value="160"/>
+												<Property Name="Pitch" Type="Real32" Value="-1100"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Boomerang" ID="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect2">
+									<Custom>
+										<Effect Name="Wwise_Time_Stretch_(Custom)" ID="{65E35F6A-BD76-4735-9B77-9EA1CB31B421}" ShortID="284604149" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+											<PropertyList>
+												<Property Name="TimeStretch" Type="Real32" Value="102"/>
+												<Property Name="WindowSize" Type="int32" Value="1024"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect3" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Wall_Compressor" ID="{B6AA118A-2013-4C68-BECE-D4FE3053C48C}" WorkUnitID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EnemyAttack" ID="{58DCA998-A8D5-4422-821F-B33F9F1ACD00}" ShortID="1066851731">
+									<Language>SFX</Language>
+									<AudioFile>EnemyAttack.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="127179682"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EnemyAttack" ID="{58DCA998-A8D5-4422-821F-B33F9F1ACD00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RoarSound" ID="{39668CE4-439A-428E-B68C-049013495DEB}" ShortID="70793950">
+							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RenderEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RenderEffect2" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="EffectConversionSettings" ID="{C2BDCD95-5F00-4705-9F81-3CDB32C1E482}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+								</Reference>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise_Time_Stretch_(Custom)" ID="{8B117EA6-95B6-487D-B67A-1081B61631AE}" ShortID="384531212" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+											<PropertyList>
+												<Property Name="OutputGain" Type="Real32" Value="2"/>
+												<Property Name="TimeStretch" Type="Real32" Value="136"/>
+												<Property Name="WindowSize" Type="int32" Value="768"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Repeat_after_me" ID="{7A0568D0-BE8B-4233-B3E8-200344DB7AE0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect3" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Wall_Compressor" ID="{B6AA118A-2013-4C68-BECE-D4FE3053C48C}" WorkUnitID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EnemyRoar" ID="{7360C958-5240-46F0-A94E-852AF6592A1D}" ShortID="847292937">
+									<Language>SFX</Language>
+									<AudioFile>EnemyRoar.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="767503946"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EnemyRoar" ID="{7360C958-5240-46F0-A94E-852AF6592A1D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="EatingSound" ID="{21C81369-CD11-4F17-9F80-BD9981FC6FEF}" ShortID="115597979">
+							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0B2B60CC-37B2-4E2C-91D8-D60BD0FC1635}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="303"/>
+													<Property Name="Min" Type="Real64" Value="-202"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoopCount" Type="int32" Value="10"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="EffectConversionSettings" ID="{C2BDCD95-5F00-4705-9F81-3CDB32C1E482}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ChompSound" ID="{ADEF4C1E-538C-4CD1-8DBD-F4125B1F8DAE}" ShortID="1061561954">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="MonsterStompAttenuation" ID="{7E3EDA24-2F6F-4B18-8162-BA9C35078E61}" WorkUnitID="{B30BD5E0-C2C9-407B-9715-7D6A871ABE77}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{C25A2DCD-5F56-4A10-9787-5201554436DD}">
+												<Effect Name="Enemy_Eating_(Custom)" ID="{8CC94907-6C84-40A0-BBB4-EF234B41DACF}" ShortID="854095367" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+													<PropertyList>
+														<Property Name="DelayTime" Type="Real32" Value="15"/>
+														<Property Name="DryLevel" Type="Real32" Value="-27"/>
+														<Property Name="Pitch" Type="Real32" Value="-500"/>
+														<Property Name="WetLevel" Type="Real32" Value="-6"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="Wall_Compressor" ID="{B6AA118A-2013-4C68-BECE-D4FE3053C48C}" WorkUnitID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyChomp" ID="{31F7CBD8-7FB2-4016-87AF-76179D7E94F2}" ShortID="659887762">
+											<Language>SFX</Language>
+											<AudioFile>EnemyChomp.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="514533099"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyChomp" ID="{31F7CBD8-7FB2-4016-87AF-76179D7E94F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ChewSound" ID="{89E1DBE9-C7D5-44FC-9E50-9E4F3CB03AD3}" ShortID="536615056">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="RenderEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="MonsterStompAttenuation" ID="{7E3EDA24-2F6F-4B18-8162-BA9C35078E61}" WorkUnitID="{B30BD5E0-C2C9-407B-9715-7D6A871ABE77}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="Enemy_Eating" ID="{C25A2DCD-5F56-4A10-9787-5201554436DD}" WorkUnitID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyChew" ID="{0AC72A4C-3315-491A-819E-1C650BD29CB7}" ShortID="542552752">
+											<Language>SFX</Language>
+											<AudioFile>EnemyChew.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyChew" ID="{0AC72A4C-3315-491A-819E-1C650BD29CB7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BreakSound" ID="{5E1C376D-1486-4C98-882B-3478111CFD3C}" ShortID="647548828">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="RenderEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+										</Reference>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Pumping_and_Breathing_3" ID="{8B1E574C-55B2-4097-A21F-D39349A6F48B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="BoneSNap" ID="{BAF5A2C8-3FC2-427A-B1BC-F4B9DCF4079A}" WorkUnitID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBoneSnap" ID="{EA321992-FE43-4EFC-9474-76E0DE11DE4F}" ShortID="899281820">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBoneSnap.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBoneSnap" ID="{EA321992-FE43-4EFC-9474-76E0DE11DE4F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="AttackSound" ID="{F2263A5A-8034-44B8-AAEC-3AD6AA576B7A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="EatingSound" ID="{21C81369-CD11-4F17-9F80-BD9981FC6FEF}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="SenseSound" ID="{5C7F8C8F-B718-466F-BEBC-10BDE788A2D8}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="RoarSound" ID="{39668CE4-439A-428E-B68C-049013495DEB}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Attack" ID="{7B944A24-80AC-430A-B6FE-AFC51F3AA6CF}"/>
+								<ItemList>
+									<ItemRef Name="AttackSound" ID="{F2263A5A-8034-44B8-AAEC-3AD6AA576B7A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Roar" ID="{9EE3072B-2BA0-413F-876F-52C9BDC8DD6F}"/>
+								<ItemList>
+									<ItemRef Name="RoarSound" ID="{39668CE4-439A-428E-B68C-049013495DEB}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Sense" ID="{240B1678-000B-4128-B4EB-45C899F34A9B}"/>
+								<ItemList>
+									<ItemRef Name="SenseSound" ID="{5C7F8C8F-B718-466F-BEBC-10BDE788A2D8}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Eat" ID="{82198CFF-0646-4C9E-B6D6-D3A3D2F0DAF3}"/>
+								<ItemList>
+									<ItemRef Name="EatingSound" ID="{21C81369-CD11-4F17-9F80-BD9981FC6FEF}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

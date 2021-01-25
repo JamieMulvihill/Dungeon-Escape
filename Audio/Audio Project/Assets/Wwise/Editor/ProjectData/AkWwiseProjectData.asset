@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1116c6de2259444eaf84a78107ebc07, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ccf45fed5c05d641a05b3e78d17d38f0
+    GuidInternal: 
+    m_lastTime: -8585958039868228862
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c9124dba77fd6742bac03ad623bba90e
+    GuidInternal: 
+    m_lastTime: -8585958039869381635
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f534ee7f060bbe4f937d6a80de48feaf
+    GuidInternal: 
+    m_lastTime: -8585953810280954817
+    List:
+    - name: Main
+      guid: 8422776e8dad8440be17339d2c58bce6
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 01678f45375ef9478d0feedbf209380d
+    GuidInternal: 
+    m_lastTime: -8585953532592612104
+    List:
+    - name: AtmosphereSound
+      guid: bf8d3a99d382194da2dcc30a0610950a
+      id: 1402148638
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AtmosphereSound
+        ObjectType: 3
+      Path: Default Work Unit\AtmosphereSound
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footstep
+      guid: 7d9448594d529e47afe7e072de0a0562
+      id: 1866025847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep
+        ObjectType: 3
+      Path: Default Work Unit\Footstep
+      maxAttenuation: 0
+      maxDuration: 0.628953
+      minDuration: 0.037733
+    - name: PickUp_SFX
+      guid: 1f30e398749c7743b36ffa58d02077ec
+      id: 1737848757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PickUp_SFX
+        ObjectType: 3
+      Path: Default Work Unit\PickUp_SFX
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: bbb50b0ee0f07f41afee9c40c8813b3b
+    GuidInternal: 
+    m_lastTime: -8585958039868955920
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 18c88f22947f1e438ea33056cb53ff0c
+    GuidInternal: 
+    m_lastTime: -8585958039869591680
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d4a9c38560e7a2409623925eb4854c3c
+    GuidInternal: 
+    m_lastTime: -8585951902727538810
+    List:
+    - name: Surface
+      guid: a62ed0ea4bc6874795376c3ec5b4aa66
+      id: 1834394558
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Surface
+        ObjectType: 11
+      Path: Default Work Unit\Surface
+      values:
+      - name: Ground
+        guid: e8887e897101454c88199983e9b635b0
+        id: 2528658256
+        PathAndIcons:
+        - ElementName: Ground
+          ObjectType: 10
+      - name: TipToe
+        guid: a63b77a376b84a47a0f6574000618b5b
+        id: 1255434628
+        PathAndIcons:
+        - ElementName: TipToe
+          ObjectType: 10
+      - name: Water
+        guid: 76a9c9b7a085864b8d1465e7a53fd160
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: Water
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9ce40eab16ec97459a659baec34356c4
+    GuidInternal: 
+    m_lastTime: -8585958039869095958
+    List: []
+  ExpandedItems:
+  - /Audio Project_WwiseProject
+  - /Audio Project_WwiseProject/Switches
+  - /Audio Project_WwiseProject/Switches/Default Work Unit
+  - /Audio Project_WwiseProject/Switches/Default Work Unit/Surface
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

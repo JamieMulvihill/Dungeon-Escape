@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\Atmosphere.wwu" DateLow="1608030469" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\BackingTrack.wwu" DateLow="1607457067" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\Collectibles.wwu" DateLow="1608124365" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1608030512" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\Enemy.wwu" DateLow="1608199612" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\PickUP.wwu" DateLow="1608130063" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\PickUps.wwu" DateLow="1607257821" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\Player.wwu" DateLow="1608130596" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Actor-Mixer Hierarchy\Procedural.wwu" DateLow="1609856071" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1609855792" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1605802898" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Audio Project_WwiseProject.user.wsettings" DateLow="1609856159" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Audio Project_WwiseProject.wproj" DateLow="1607449984" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1605805245" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1608124365" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1603362216" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1605802898" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1608130063" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Effects\Factory Effects.wwu" DateLow="1607893930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Events\Default Work Unit.wwu" DateLow="1608030813" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Events\Enemy.wwu" DateLow="1608030813" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Events\Level.wwu" DateLow="1608042013" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Events\Music.wwu" DateLow="1608030813" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Events\Player.wwu" DateLow="1608030813" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Events\Stinger.wwu" DateLow="1608030813" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1608063742" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1608130435" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Interactive Music Hierarchy\InGameMusic.wwu" DateLow="1608130517" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Interactive Music Hierarchy\MenuMusic.wwu" DateLow="1608030683" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1607962039" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1607946270" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1605802898" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1605802898" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1605802898" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1605802898" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Queries\Factory Queries.wwu" DateLow="1603362216" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1608121612" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1609855792" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\States\Default Work Unit.wwu" DateLow="1607970307" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1608121591" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1608030823" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Triggers\Music.wwu" DateLow="1607868151" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Triggers\Trigger.wwu" DateLow="1607859899" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1605802898" DateHigh="0"/>
+</ValidationCache>

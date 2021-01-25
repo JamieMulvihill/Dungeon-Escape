@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9476A9DA-22A0-4A90-8FC9-45B8BD0B4EC8}" SchemaVersion="94" RootDocumentID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}">
+	<Events>
+		<WorkUnit Name="Music" ID="{9476A9DA-22A0-4A90-8FC9-45B8BD0B4EC8}" OwnerID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GameMusic" ID="{0E09B92A-9B8C-4698-B85F-DEDE30181371}">
+					<ChildrenList>
+						<Action Name="" ID="{DBF60D8B-089A-47CA-BF08-4E9A3E9F306D}" ShortID="30336977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameMusic" ID="{58B02BD0-2C25-4806-8B58-D386B773BF75}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuMusic" ID="{99D48E5B-5898-4875-A565-4F7A387323B1}">
+					<ChildrenList>
+						<Action Name="" ID="{ACB48C93-B45A-44D7-8EBB-2B55925A051B}" ShortID="540453879">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuScreen" ID="{BFFD85A0-C0B1-4AD7-A2A2-C07807BD9045}" WorkUnitID="{551B582A-135C-48AF-ADC3-1C7A2D9C5D1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

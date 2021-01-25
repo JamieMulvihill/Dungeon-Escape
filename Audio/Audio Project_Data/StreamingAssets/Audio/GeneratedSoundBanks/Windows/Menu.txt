@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	679636833	MenuMusic			\Default Work Unit\Music\MenuMusic	
+	1402148638	AtmosphereSound			\Default Work Unit\Level\AtmosphereSound	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	0	None	GameState			
+	221232726	Lose	GameState			
+	417490929	Chase	GameState			
+	979765101	Win	GameState			
+	3169107872	Escape	GameState			
+	3753286132	Calm	GameState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	709614063	Chase	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\MenuScreen\MenuLoop		
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	385890149	PickUpStinger			\Default Work Unit\Music\PickUpStinger	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	386455947	LevelBackingNoise	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\LevelBackingNoise_72F6E016.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmosphere\LevelBackingNoise		765359
+	774440119	Menu	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\MenuScreen\MenuLoop\Menu		50646
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}" SchemaVersion="94" RootDocumentID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}">
+	<AudioObjects>
+		<WorkUnit Name="Atmosphere" ID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}" OwnerID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="LevelBackingNoise" ID="{5BD8FF61-5FE0-4504-B2BF-F9BA12423CD0}" ShortID="544240135">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MusicConversionSeettings" ID="{7EC2DCAA-C1BF-46A5-BA6D-CB2F21EAAED3}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LevelBackingNoise" ID="{9C8DB473-95FE-4AD2-BD5B-D5A63F21EC23}" ShortID="386455947">
+							<Language>SFX</Language>
+							<AudioFile>LevelBackingNoise.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LevelBackingNoise" ID="{9C8DB473-95FE-4AD2-BD5B-D5A63F21EC23}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

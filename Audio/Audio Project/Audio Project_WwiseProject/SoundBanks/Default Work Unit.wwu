@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7FEE34F5-0B06-4FBE-937D-6A80DE48FEAF}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7FEE34F5-0B06-4FBE-937D-6A80DE48FEAF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{6E772284-AD8D-4084-BE17-339D2C58BCE6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footstep1" ID="{152B2EAE-8040-404A-A270-0F84ADC1262B}" WorkUnitID="{BF3CF07B-E277-4CF0-A8B8-01D0CD9DCA59}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerFootsteps" ID="{269D2DAA-7F00-40E1-B797-2C959EFA841F}" WorkUnitID="{BF3CF07B-E277-4CF0-A8B8-01D0CD9DCA59}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LoseMusic" ID="{845C34FF-67FB-410D-812C-C762D61B2E4D}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Wind" ID="{983372EF-A08E-4121-AA0A-B6ACA9BC9BF8}" WorkUnitID="{2E945BDA-9ECB-47A7-B3F0-B851CF265F0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EnemySounds" ID="{C1C761F8-24EE-415C-BA44-9F848E355D72}" WorkUnitID="{03951655-1C73-4702-9C34-C6BC146B64B1}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EnemyStomps" ID="{DCB8CDD6-D896-4203-BA52-CE5CF7C64823}" WorkUnitID="{03951655-1C73-4702-9C34-C6BC146B64B1}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Grass" ID="{C324D8C3-6475-4279-86D2-159AE6775825}" WorkUnitID="{BF3CF07B-E277-4CF0-A8B8-01D0CD9DCA59}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Collectibles" ID="{97735F1C-2139-432E-8CD4-5D63224CFA5A}" WorkUnitID="{97735F1C-2139-432E-8CD4-5D63224CFA5A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footstep" ID="{50EF43D0-8B1C-4359-B44A-390A9852FEDE}" WorkUnitID="{BF3CF07B-E277-4CF0-A8B8-01D0CD9DCA59}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PickUP" ID="{801B2C5E-61EA-43C7-B64A-8E8ADE061F45}" WorkUnitID="{801B2C5E-61EA-43C7-B64A-8E8ADE061F45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EscapeMusic" ID="{29DA23D3-D750-44BA-A24A-F1C9166B3DD8}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ChaseMusic" ID="{A8ACCD11-674F-44D6-A209-A2BAC405E6A2}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Key" ID="{DA1BD75F-FD69-4547-AEA3-3A61B3458953}" WorkUnitID="{97735F1C-2139-432E-8CD4-5D63224CFA5A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerSounds" ID="{287D6B5F-476D-466F-B7D6-6EAECF1ABB9C}" WorkUnitID="{4A850B1B-3D64-4798-AAB0-E24835853C6D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GameMusic" ID="{0E09B92A-9B8C-4698-B85F-DEDE30181371}" WorkUnitID="{9476A9DA-22A0-4A90-8FC9-45B8BD0B4EC8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy" ID="{03951655-1C73-4702-9C34-C6BC146B64B1}" WorkUnitID="{03951655-1C73-4702-9C34-C6BC146B64B1}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stinger" ID="{96C93D61-4BDB-472F-AD43-580B9BD0F732}" WorkUnitID="{13E13037-54C7-45A7-B315-61AE9872B2A6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Procedural" ID="{2E945BDA-9ECB-47A7-B3F0-B851CF265F0B}" WorkUnitID="{2E945BDA-9ECB-47A7-B3F0-B851CF265F0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GameMusic" ID="{58B02BD0-2C25-4806-8B58-D386B773BF75}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PickUP" ID="{EEEF1FAD-61C3-480B-AA23-FF5F75E36F29}" WorkUnitID="{883FD50C-49F4-49A5-9638-3DB97B0EA8ED}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SingTrig" ID="{E5A91AF1-B517-4957-8AE8-320154DC2F4A}" WorkUnitID="{F2549D1A-062F-4FBC-8800-5F71E1239A2F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="WinMusic" ID="{3F3EA034-94A1-49BA-B554-11CE0A1AAA99}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EnemyEffects" ID="{A1A733F1-FD1E-4A7D-B921-1F5A0FEB3D7D}" WorkUnitID="{1CF79243-4AB3-496E-9371-5B96EF07992E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stingers" ID="{E4EECE75-823E-4B0E-94FA-A193B8734B32}" WorkUnitID="{13E13037-54C7-45A7-B315-61AE9872B2A6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cricket" ID="{1FAA7B45-B861-4B18-9169-5F22F0F04409}" WorkUnitID="{883FD50C-49F4-49A5-9638-3DB97B0EA8ED}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="InGameMusic" ID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Environment_Corridor" ID="{1781C987-53A7-4C30-9B3D-4AD266E1CF1B}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player" ID="{BF3CF07B-E277-4CF0-A8B8-01D0CD9DCA59}" WorkUnitID="{BF3CF07B-E277-4CF0-A8B8-01D0CD9DCA59}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Atmosphere" ID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}" WorkUnitID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CalmMusic" ID="{F1DD2102-8C58-4E9F-8275-AB4685EEF9C5}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{673DF192-F54B-4F90-97B8-EBFBED1DF389}" WorkUnitID="{673DF192-F54B-4F90-97B8-EBFBED1DF389}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Menu" ID="{4AABE896-F0CB-4A69-9099-9D2BF95BBBCD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MenuMusic" ID="{99D48E5B-5898-4875-A565-4F7A387323B1}" WorkUnitID="{9476A9DA-22A0-4A90-8FC9-45B8BD0B4EC8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MenuMusic" ID="{551B582A-135C-48AF-ADC3-1C7A2D9C5D1D}" WorkUnitID="{551B582A-135C-48AF-ADC3-1C7A2D9C5D1D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MenuScreen" ID="{BFFD85A0-C0B1-4AD7-A2A2-C07807BD9045}" WorkUnitID="{551B582A-135C-48AF-ADC3-1C7A2D9C5D1D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AtmosphereSound" ID="{993A8DBF-82D3-4D19-A2DC-C30A0610950A}" WorkUnitID="{883FD50C-49F4-49A5-9638-3DB97B0EA8ED}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Atmosphere" ID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}" WorkUnitID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList>
+						<ObjectRef Name="StingerSound" ID="{415E0CBC-70C0-40CA-9D95-289C58CF60B4}" WorkUnitID="{13E13037-54C7-45A7-B315-61AE9872B2A6}"/>
+						<ObjectRef Name="Wwise_Pitch_Shifter_(Custom)" ID="{AE219C7B-12F0-4519-8B7A-A7F4181E5DBB}" WorkUnitID="{13E13037-54C7-45A7-B315-61AE9872B2A6}"/>
+						<ObjectRef Name="WinChorus" ID="{4C816C4E-C3CC-46EA-B0AC-E749EF7F1089}"/>
+						<ObjectRef Name="Stinger" ID="{96C93D61-4BDB-472F-AD43-580B9BD0F732}" WorkUnitID="{13E13037-54C7-45A7-B315-61AE9872B2A6}"/>
+						<ObjectRef Name="StingerHit" ID="{EDF75CDC-8C05-4D81-9112-827D6ABF58B3}" WorkUnitID="{13E13037-54C7-45A7-B315-61AE9872B2A6}"/>
+					</ObjectExclusionList>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

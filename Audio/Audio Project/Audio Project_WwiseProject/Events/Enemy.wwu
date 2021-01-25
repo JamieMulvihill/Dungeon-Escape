@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1CF79243-4AB3-496E-9371-5B96EF07992E}" SchemaVersion="94" RootDocumentID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}">
+	<Events>
+		<WorkUnit Name="Enemy" ID="{1CF79243-4AB3-496E-9371-5B96EF07992E}" OwnerID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="EnemyEffects" ID="{A1A733F1-FD1E-4A7D-B921-1F5A0FEB3D7D}">
+					<ChildrenList>
+						<Action Name="" ID="{EE16B022-EB88-4621-9407-C4DCC9C7FD4F}" ShortID="923960613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemySounds" ID="{C1C761F8-24EE-415C-BA44-9F848E355D72}" WorkUnitID="{03951655-1C73-4702-9C34-C6BC146B64B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnemyWalk" ID="{C3BA4517-7C3F-4DA3-9D1E-C766920B99E7}">
+					<ChildrenList>
+						<Action Name="" ID="{CDC70A46-82F3-4E01-AFD9-FB8DF9346761}" ShortID="592110523">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stomps" ID="{8CB67649-E454-45FB-9BEA-1CBF1EB1BBF2}" WorkUnitID="{03951655-1C73-4702-9C34-C6BC146B64B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2549D1A-062F-4FBC-8800-5F71E1239A2F}" SchemaVersion="94" RootDocumentID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}">
+	<Events>
+		<WorkUnit Name="Stinger" ID="{F2549D1A-062F-4FBC-8800-5F71E1239A2F}" OwnerID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="SingTrig" ID="{E5A91AF1-B517-4957-8AE8-320154DC2F4A}">
+					<ChildrenList>
+						<Action Name="" ID="{D4416E28-6288-44A1-BD65-FF9AAC77929A}" ShortID="481576129">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUpStinger" ID="{0CFC1179-7C55-46EF-9FA0-B9A53384262A}" WorkUnitID="{61062817-AD8A-421D-9B71-CDC1B7D5A377}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

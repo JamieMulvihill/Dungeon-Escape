@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{228FC818-7F94-431E-8EA3-3056CB53FF0C}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{228FC818-7F94-431E-8EA3-3056CB53FF0C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GameState" ID="{90FF4F5C-E5CF-4A44-9CF9-621DFA4B6C7B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A629977F-1F7E-424A-88E6-BDA161BFF0D8}"/>
+						<State Name="Calm" ID="{338FF779-BD98-4D56-A9B2-C2088D52EEF7}"/>
+						<State Name="Chase" ID="{32945B66-B621-485E-8EFE-C57C443A0F3C}"/>
+						<State Name="Lose" ID="{53C6D69E-9D7F-4DCF-AF43-515BE6633A54}"/>
+						<State Name="Escape" ID="{EA8DF1E5-7988-44CF-B909-9E9E4D3B2B79}"/>
+						<State Name="Win" ID="{6660BAD8-25EB-44FC-8DB1-9BAAF6528C8A}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Calm" ID="{338FF779-BD98-4D56-A9B2-C2088D52EEF7}"/>
+							<EndState Name="Chase" ID="{32945B66-B621-485E-8EFE-C57C443A0F3C}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Chase" ID="{32945B66-B621-485E-8EFE-C57C443A0F3C}"/>
+							<EndState Name="Calm" ID="{338FF779-BD98-4D56-A9B2-C2088D52EEF7}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

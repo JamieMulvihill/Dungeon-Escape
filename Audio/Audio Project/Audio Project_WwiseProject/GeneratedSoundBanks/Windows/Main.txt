@@ -1,0 +1,156 @@
+Event	ID	Name			Wwise Object Path	Notes
+	679636833	MenuMusic			\Default Work Unit\Music\MenuMusic	
+	1103958200	EnemyWalk			\Default Work Unit\Enemy\EnemyWalk	
+	1327972334	PlayerSounds			\Default Work Unit\Player\PlayerSounds	
+	1402148638	AtmosphereSound			\Default Work Unit\Level\AtmosphereSound	
+	1533192012	GameMusic			\Default Work Unit\Music\GameMusic	
+	1537061107	Wind			\Default Work Unit\Level\Wind	
+	1866025847	Footstep			\Default Work Unit\Player\Footstep	
+	2401307071	EnemyEffects			\Default Work Unit\Enemy\EnemyEffects	
+	2791896842	SingTrig			\Default Work Unit\Stinger\SingTrig	
+	3356756485	Collectible			\Default Work Unit\Level\Collectible	
+	3360608258	Cricket			\Default Work Unit\Level\Cricket	
+	3978245845	PickUP			\Default Work Unit\Level\PickUP	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	531986296	EnemySoundSwitch			\Default Work Unit\EnemySoundSwitch	
+	1327972334	PlayerSounds			\Default Work Unit\PlayerSounds	
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	180661997	Attack	EnemySoundSwitch			
+	781390793	Eat	EnemySoundSwitch			
+	2110808665	Roar	EnemySoundSwitch			
+	4069948569	Sense	EnemySoundSwitch			
+	779278001	Death	PlayerSounds			
+	1167979795	Flashlight	PlayerSounds			
+	2528658256	Ground	Surface			
+	2654748154	Water	Surface			
+	4248645337	Grass	Surface			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	0	None	GameState			
+	221232726	Lose	GameState			
+	417490929	Chase	GameState			
+	979765101	Win	GameState			
+	3169107872	Escape	GameState			
+	3753286132	Calm	GameState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	83476865	Escape	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\LoseMusic\Lose		
+	83882353	Calm	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop		
+	100778726	Chase	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\WinMusic\Win		
+	143660909	Win	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop		
+	168326522	Chase	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\LoseMusic\Lose		
+	174001582	Lose	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\WinMusic\Win		
+	181818146	Lose	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop		
+	189509508	Escape	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\WinMusic\Win		
+	211869068	Chase	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop		
+	260137100	Escape	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop		
+	474914869	Win	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\LoseMusic\Lose		
+	504605473	Win	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop		
+	533578539	Lose	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop		
+	709614063	Chase	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\MenuScreen\MenuLoop		
+	887713694	Calm	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop		
+	1036658441	Calm	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\WinMusic\Win		
+	1065207461	Calm	GameState	\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\LoseMusic\Lose		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	456153899	EnemySense			\Default Work Unit\EnemySense	
+	554378191	Wall_Compressor			\Default Work Unit\Wall_Compressor	
+	870193789	Cricket_Pitch			\Default Work Unit\Cricket_Pitch	
+	3106680682	OcculusionLowPass			\Default Work Unit\OcculusionLowPass	
+	3695639568	TipToe_Compressor			\Default Work Unit\TipToe_Compressor	
+	3990645511	OcculusionVolume			\Default Work Unit\OcculusionVolume	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	198136026	Modulator LFO (Custom)				
+	1059218082	Modulator LFO (Custom)				
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	235686365	Modulator Envelope (Custom)				
+	512278971	Modulator Envelope (Custom)				
+	1036045526	Modulator Envelope (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	385890149	PickUpStinger			\Default Work Unit\Music\PickUpStinger	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1673477693	Environment_Corridor			\Default Work Unit\Master Audio Bus\Environment_Corridor	
+	2510970592	Enviornment_Default			\Default Work Unit\Master Audio Bus\Enviornment_Default	
+	2892358497	Enviornment_Dwelling			\Default Work Unit\Master Audio Bus\Enviornment_Dwelling	
+	3240049645	Environmtn_EchoChamber			\Default Work Unit\Master Audio Bus\Environmtn_EchoChamber	
+
+Effect plug-ins	ID	Name	Type				Notes
+	476019570	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+	519898209	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+	554378191	Wall_Compressor	Wwise Compressor			
+	588358360	Wwise_Pitch_Shifter_(Custom)	Wwise Pitch Shifter			
+	602546716	Room_Large	Wwise RoomVerb			
+	619656069	Wwise_Flanger_(Custom)	Wwise Flanger			
+	854095367	Enemy_Eating_(Custom)	Wwise Pitch Shifter			
+	870193789	Cricket_Pitch	Wwise Pitch Shifter			
+	916379128	Room_Small_(Custom)	Wwise RoomVerb			
+	1049698827	Wwise_Time_Stretch_(Custom)	Wwise Time Stretch			
+	1198215643	Boomerang	Wwise Tremolo			
+	1237275451	Octave_Up	Wwise Pitch Shifter			
+	1977873454	Delay_Echo	Wwise Delay			
+	3948262040	Octave_Down	Wwise Pitch Shifter			
+	4248645337	Grass	Wwise Compressor			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	166232822	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Procedural\Wind\WindSound\Wwise Synth One	
+	677001112	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Procedural\Cricket\CricketSound\Wwise Synth One	
+	1023852671	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemySounds\SenseSound\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19481323	EscapeBeat	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EscapeBeat_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop\EscapeBeat		37065
+	71208128	BaseBeat	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop\BaseBeat_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\CalmMusic\CalmLoop\BaseBeat		29249
+	122943253	Footstep3	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Footstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Ground\Footstep3		20960
+	127179682	AttackSound	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyAttack_E4E92DBC_B45F0ABE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemySounds\AttackSound		40087
+	148232309	StingerSound	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\StingerHit_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\Stinger\StingerSound		59864
+	155841629	ChaseLowRun	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\ChaseMelody_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop\ChaseLowRun		26154
+	164284133	KeysJingle	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\KeysJingle_72F6E016.wem		\Actor-Mixer Hierarchy\Default Work Unit\Collectibles\Key\KeysJingle		23993
+	225034285	Waterstep4	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Waterstep4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Water\Waterstep4		57408
+	233477828	LoseLoop	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\ChaseLoop_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\LoseMusic\Lose\LoseLoop		101318
+	242616848	EscapeAccent	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EscapeLoop\EscapeDuo_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop\EscapeAccent		38065
+	256231570	Death	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\PlayerDeath_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSound\Player\Death		124780
+	277644352	BaseSec	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop\Kikout_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\CalmMusic\CalmLoop\BaseSec		33623
+	282551069	ChaseLowRun	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\ChaseLoop\ChaseFlow_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop\ChaseLowRun		20296
+	297670963	WinTrack	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\WinFull_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\WinMusic\Win\WinTrack		70231
+	305104293	ChaseLowRun	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\ChaseLoop\ChaseLowRun_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop\ChaseLowRun		23801
+	380353001	Waterstep2	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Waterstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Water\Waterstep2		59456
+	384186866	Grass1	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Grass1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Grass\Grass1		8908
+	386455947	LevelBackingNoise	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\LevelBackingNoise_72F6E016.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmosphere\LevelBackingNoise		765359
+	403720172	Waterstep1	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Waterstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Water\Waterstep1		85616
+	514533099	ChompSound	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyChomp_E4E92DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemySounds\EatingSound\ChompSound		4565
+	539317200	BaseSec	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop\BaseSec_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\CalmMusic\CalmLoop\BaseSec		33546
+	542552752	ChewSound	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyChew_E4E92DBC_70CB7CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemySounds\EatingSound\ChewSound		26084
+	706314553	ChaseBaseBeat	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\ChaseBaseBeat_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop\ChaseBaseBeat		32071
+	717748139	EnemyStomp2	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyStomp2_10C4C929_AD18FC91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemyStomps\Stomps\EnemyStomp2		49216
+	721832687	BaseSec	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop\HighandSec_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\CalmMusic\CalmLoop\BaseSec		33396
+	723511247	ChaseLowRun	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Duo_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop\ChaseLowRun		26822
+	729658140	EnemyStomp1	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyStomp1_10C4C929_AD18FC91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemyStomps\Stomps\EnemyStomp1		69696
+	767503946	RoarSound	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyRoar_E4E92DBC_A04C62EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemySounds\RoarSound		45275
+	773167429	Grass2	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Grass2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Grass\Grass2		12508
+	774440119	Menu	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\MenuScreen\MenuLoop\Menu		50646
+	782420752	ChaseLowRun	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\ChaseLoop\ChaseHit_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\ChaseMusic\ChaseLoop\ChaseLowRun		16123
+	828926162	Waterstep3	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Waterstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Water\Waterstep3		71744
+	852123412	BaseSec	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop\HighHit_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\CalmMusic\CalmLoop\BaseSec		33383
+	872436890	Flashlight	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\FlashlightClick_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSound\Player\Flashlight		53824
+	873221746	Footstep2	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Footstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Ground\Footstep2		35608
+	898757866	Footstep1	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Footstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Ground\Footstep1		34524
+	899281820	BreakSound	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyBoneSnap_E4E92DBC_A157FA83.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemySounds\EatingSound\BreakSound		9258
+	906245310	EnemyStomp3	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EnemyStomp3_10C4C929_AD18FC91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemyStomps\Stomps\EnemyStomp3		49216
+	924868616	SFX	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\PickUp_E4E92DBC_7EF1F11F.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUP\Sound\SFX		71281
+	925312917	EscapeAccent	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EscapeLoop\EscapeAccent_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop\EscapeAccent		37683
+	979898915	BaseSec	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\CalmLoop\KickandSec_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\CalmMusic\CalmLoop\BaseSec		33245
+	1059849203	Grass3	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\Grass3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\Footstep\Grass\Grass3		8696
+	1064018975	EscapeAccent	C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\SFX\EscapeLoop\EscapeHigh_72F6E016.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGameMusic\GameMusic\EscapeMusic\EscapeLoop\EscapeAccent		19961
+

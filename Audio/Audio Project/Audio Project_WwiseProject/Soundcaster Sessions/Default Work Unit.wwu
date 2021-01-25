@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDBF3225-B84A-4705-BC29-6C16BE979A78}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CDBF3225-B84A-4705-BC29-6C16BE979A78}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SingerTest" ID="{E9D1914F-5ABE-400D-A93C-66FF5B4BAB35}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="GameMusic" ID="{58B02BD0-2C25-4806-8B58-D386B773BF75}" WorkUnitID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PickUP" ID="{EEEF1FAD-61C3-480B-AA23-FF5F75E36F29}" WorkUnitID="{883FD50C-49F4-49A5-9638-3DB97B0EA8ED}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Wall_Compressor" ID="{85B0715F-E6B4-4443-97D6-A26B69890F2D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EnemySense" ID="{1CA4BCFE-D861-4694-8019-0BA31745CD96}"/>
+							<Value>50.1234567901235</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="TipToe_Compressor" ID="{DCBAF6EE-62DE-4CC1-90D4-C3D810B73817}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="OcculusionVolume" ID="{EEB93527-3195-4D80-B231-F184882179B7}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="OcculusionLowPass" ID="{C3B34D38-5232-4E72-B1F7-9F6F47349EBF}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Cricket_Pitch" ID="{B24387E2-C329-4F95-8302-65A6F0B728E5}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Win" ID="{6660BAD8-25EB-44FC-8DB1-9BAAF6528C8A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Attack" ID="{7B944A24-80AC-430A-B6FE-AFC51F3AA6CF}"/>
+						<CurrentSwitchRef Name="Ground" ID="{897E88E8-0171-4C45-8819-9983E9B635B0}"/>
+						<CurrentSwitchRef Name="Death" ID="{2F524124-DF3D-4F95-8C12-A18C3CAE98CE}"/>
+						<CurrentSwitchRef Name="Calm" ID="{71DDFEFC-9236-41F3-B33C-ACB2B882B388}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

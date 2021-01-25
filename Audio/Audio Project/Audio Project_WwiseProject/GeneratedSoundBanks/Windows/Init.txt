@@ -1,0 +1,29 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	0	None	GameState			
+	221232726	Lose	GameState			
+	417490929	Chase	GameState			
+	979765101	Win	GameState			
+	3169107872	Escape	GameState			
+	3753286132	Calm	GameState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1673477693	Environment_Corridor			\Default Work Unit\Master Audio Bus\Environment_Corridor	
+	2510970592	Enviornment_Default			\Default Work Unit\Master Audio Bus\Enviornment_Default	
+	2892358497	Enviornment_Dwelling			\Default Work Unit\Master Audio Bus\Enviornment_Dwelling	
+	3240049645	Environmtn_EchoChamber			\Default Work Unit\Master Audio Bus\Environmtn_EchoChamber	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	916379128	Room_Small_(Custom)	Wwise RoomVerb			
+	1977873454	Delay_Echo	Wwise Delay			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

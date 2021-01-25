@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Enemy" ID="{1CF79243-4AB3-496E-9371-5B96EF07992E}" PersistMode="Reference"/>
+				<WorkUnit Name="Level" ID="{883FD50C-49F4-49A5-9638-3DB97B0EA8ED}" PersistMode="Reference"/>
+				<WorkUnit Name="Player" ID="{4A850B1B-3D64-4798-AAB0-E24835853C6D}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{9476A9DA-22A0-4A90-8FC9-45B8BD0B4EC8}" PersistMode="Reference"/>
+				<WorkUnit Name="Stinger" ID="{F2549D1A-062F-4FBC-8800-5F71E1239A2F}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

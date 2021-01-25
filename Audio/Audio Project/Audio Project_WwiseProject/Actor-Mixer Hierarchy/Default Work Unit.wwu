@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Atmosphere" ID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}" PersistMode="Reference"/>
+				<WorkUnit Name="Player" ID="{BF3CF07B-E277-4CF0-A8B8-01D0CD9DCA59}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemy" ID="{03951655-1C73-4702-9C34-C6BC146B64B1}" PersistMode="Reference"/>
+				<WorkUnit Name="Collectibles" ID="{97735F1C-2139-432E-8CD4-5D63224CFA5A}" PersistMode="Reference"/>
+				<WorkUnit Name="Procedural" ID="{2E945BDA-9ECB-47A7-B3F0-B851CF265F0B}" PersistMode="Reference"/>
+				<WorkUnit Name="PickUP" ID="{801B2C5E-61EA-43C7-B64A-8E8ADE061F45}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{801B2C5E-61EA-43C7-B64A-8E8ADE061F45}" SchemaVersion="94" RootDocumentID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}">
+	<AudioObjects>
+		<WorkUnit Name="PickUP" ID="{801B2C5E-61EA-43C7-B64A-8E8ADE061F45}" OwnerID="{CDA6C626-AEA5-4A80-B0FD-9967C338563E}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Sound" ID="{94109E9A-63D7-4286-9BD8-AFB63B3A3738}" ShortID="304150788">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="EffectConversionSettings" ID="{C2BDCD95-5F00-4705-9F81-3CDB32C1E482}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX" ID="{97ADFFDE-5C87-44B2-A9A4-F304AC966F41}" ShortID="172806529">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RenderEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RenderEffect2" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2385BFCB-08D5-482B-9365-50F4C1653454}"/>
+								</Reference>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="PickUp" ID="{E1E5E22B-1919-4FC3-8B12-252829073F6B}" WorkUnitID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}"/>
+								</Reference>
+								<Reference Name="Effect2">
+									<Custom>
+										<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{42DF16D7-844F-48FB-8502-78542DA038E9}" ShortID="863649918" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand3" Type="int32" Value="1"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="1215"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="OnOffBand2" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA4D12C9-FD77-4267-BAC0-3AD623BBA90E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PickUp" ID="{B26E2B15-621F-4E24-BDD7-D479AC3FF050}" ShortID="924868616">
+									<Language>SFX</Language>
+									<AudioFile>PickUp.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PickUp" ID="{B26E2B15-621F-4E24-BDD7-D479AC3FF050}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6f4249d3d4ff446b5e7b82d94cb92d, type: 3}
+  m_Name: 90FF4F5C-E5CF-4A44-9CF9-621DFA4B6C7B
+  m_EditorClassIdentifier: 
+  objectName: GameState
+  id: 4091656514
+  guid: 90FF4F5C-E5CF-4A44-9CF9-621DFA4B6C7B

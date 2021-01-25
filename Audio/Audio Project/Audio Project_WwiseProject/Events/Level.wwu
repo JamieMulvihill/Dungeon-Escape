@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{883FD50C-49F4-49A5-9638-3DB97B0EA8ED}" SchemaVersion="94" RootDocumentID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}">
+	<Events>
+		<WorkUnit Name="Level" ID="{883FD50C-49F4-49A5-9638-3DB97B0EA8ED}" OwnerID="{458F6701-5E37-47F9-8D0F-EEDBF209380D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="AtmosphereSound" ID="{993A8DBF-82D3-4D19-A2DC-C30A0610950A}">
+					<ChildrenList>
+						<Action Name="" ID="{1DBBBA9E-BBF3-44C9-841C-6958CDC76E7F}" ShortID="236498867">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelBackingNoise" ID="{5BD8FF61-5FE0-4504-B2BF-F9BA12423CD0}" WorkUnitID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8711BBFC-CBC0-4C5D-BBF8-C3D24D6A3FBE}" ShortID="225515488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="25">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B2D38051-DE79-4BD9-AF33-0843FD66F03C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelBackingNoise" ID="{5BD8FF61-5FE0-4504-B2BF-F9BA12423CD0}" WorkUnitID="{D5CAFDCF-49EF-4DC4-A9D5-FDCD5EC6A06E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Collectible" ID="{D60F4435-E609-4023-B5C7-6ED4D8129203}">
+					<ChildrenList>
+						<Action Name="" ID="{9A9F51EF-CB27-4C0E-97B8-E6797805E1A6}" ShortID="725023968">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="KeysJingle" ID="{077C478C-E866-40E1-8514-B9FCAF79AA10}" WorkUnitID="{97735F1C-2139-432E-8CD4-5D63224CFA5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7AD989A3-1BA7-41AB-8155-616E88210C95}" ShortID="10980108">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="50">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DCD9A209-8FFF-444C-A4B7-5DA1D6B0903D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="40"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="KeysJingle" ID="{077C478C-E866-40E1-8514-B9FCAF79AA10}" WorkUnitID="{97735F1C-2139-432E-8CD4-5D63224CFA5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wind" ID="{85D73DF0-F974-4B86-8F3E-FEBDC642AC25}">
+					<ChildrenList>
+						<Action Name="" ID="{69927CBD-6702-4A0B-A385-277DFC5914E7}" ShortID="732389658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WindSound" ID="{2245CEEE-2335-4627-B478-F1282C648C6E}" WorkUnitID="{2E945BDA-9ECB-47A7-B3F0-B851CF265F0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PickUP" ID="{EEEF1FAD-61C3-480B-AA23-FF5F75E36F29}">
+					<ChildrenList>
+						<Action Name="" ID="{1F3BD8AA-C7FA-44CF-9FD3-990FCBDBBD09}" ShortID="648060429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX" ID="{97ADFFDE-5C87-44B2-A9A4-F304AC966F41}" WorkUnitID="{801B2C5E-61EA-43C7-B64A-8E8ADE061F45}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{52220D33-530D-469E-9C5E-0EBE2202A85B}" ShortID="930662818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUpStinger" ID="{0CFC1179-7C55-46EF-9FA0-B9A53384262A}" WorkUnitID="{61062817-AD8A-421D-9B71-CDC1B7D5A377}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cricket" ID="{1FAA7B45-B861-4B18-9169-5F22F0F04409}">
+					<ChildrenList>
+						<Action Name="" ID="{BF8EA99D-AD2A-4DE3-9DA5-21F46175FDCB}" ShortID="900906415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CricketSound" ID="{B5BC8E64-1DDF-4AE1-9A82-40DA7B024A49}" WorkUnitID="{2E945BDA-9ECB-47A7-B3F0-B851CF265F0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

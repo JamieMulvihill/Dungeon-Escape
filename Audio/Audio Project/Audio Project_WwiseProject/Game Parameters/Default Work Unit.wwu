@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="OcculusionLowPass" ID="{C3B34D38-5232-4E72-B1F7-9F6F47349EBF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="OcculusionVolume" ID="{EEB93527-3195-4D80-B231-F184882179B7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="EnemySense" ID="{1CA4BCFE-D861-4694-8019-0BA31745CD96}"/>
+				<GameParameter Name="Wall_Compressor" ID="{85B0715F-E6B4-4443-97D6-A26B69890F2D}"/>
+				<GameParameter Name="Cricket_Pitch" ID="{B24387E2-C329-4F95-8302-65A6F0B728E5}"/>
+				<GameParameter Name="TipToe_Compressor" ID="{DCBAF6EE-62DE-4CC1-90D4-C3D810B73817}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

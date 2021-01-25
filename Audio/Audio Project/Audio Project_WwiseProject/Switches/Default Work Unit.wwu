@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85C3A9D4-E760-40A2-9623-925EB4854C3C}" SchemaVersion="94">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{85C3A9D4-E760-40A2-9623-925EB4854C3C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface" ID="{EAD02EA6-C64B-4787-9537-6C3EC5B4AA66}">
+					<ChildrenList>
+						<Switch Name="Ground" ID="{897E88E8-0171-4C45-8819-9983E9B635B0}"/>
+						<Switch Name="Water" ID="{B7C9A976-85A0-4B86-8D14-65E7A53FD160}"/>
+						<Switch Name="Grass" ID="{A3773BA6-B876-474A-A0F6-574000618B5B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="GameMusicSwitch" ID="{C6E8103C-4345-4F65-8AF7-D2F5CBA07760}">
+					<ChildrenList>
+						<Switch Name="Calm" ID="{71DDFEFC-9236-41F3-B33C-ACB2B882B388}"/>
+						<Switch Name="Chase" ID="{F1C641CE-9EA9-4727-A18D-CF7200CE25E1}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="EnemySoundSwitch" ID="{6DF09497-65A5-463C-9B52-28FB134FD9DE}">
+					<ChildrenList>
+						<Switch Name="Roar" ID="{9EE3072B-2BA0-413F-876F-52C9BDC8DD6F}"/>
+						<Switch Name="Sense" ID="{240B1678-000B-4128-B4EB-45C899F34A9B}"/>
+						<Switch Name="Attack" ID="{7B944A24-80AC-430A-B6FE-AFC51F3AA6CF}"/>
+						<Switch Name="Eat" ID="{82198CFF-0646-4C9E-B6D6-D3A3D2F0DAF3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PlayerSounds" ID="{03DBEB1C-F408-4DCB-A5A5-3859F1CD5BEC}">
+					<ChildrenList>
+						<Switch Name="Death" ID="{2F524124-DF3D-4F95-8C12-A18C3CAE98CE}"/>
+						<Switch Name="Flashlight" ID="{E779C095-F390-4004-BB9B-0216ECE47D80}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

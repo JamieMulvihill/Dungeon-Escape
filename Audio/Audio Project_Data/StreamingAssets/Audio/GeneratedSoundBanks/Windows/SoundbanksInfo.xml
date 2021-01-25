@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\darre\Desktop\Audio\Audio Project\Audio Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2607556080" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Menu</ObjectPath>
+			<ShortName>Menu</ShortName>
+			<Path>Menu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1402148638" Name="AtmosphereSound" ObjectPath="\Events\Default Work Unit\Level\AtmosphereSound" DurationType="Infinite"/>
+				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\Music\MenuMusic" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="386455947" Language="SFX">
+					<ShortName>LevelBackingNoise.wav</ShortName>
+					<Path>SFX\LevelBackingNoise_72F6E016.wem</Path>
+				</File>
+				<File Id="774440119" Language="SFX">
+					<ShortName>CalmLoop.wav</ShortName>
+					<Path>SFX\CalmLoop_72F6E016.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1402148638" Name="AtmosphereSound" ObjectPath="\Events\Default Work Unit\Level\AtmosphereSound" DurationType="Infinite"/>
+				<Event Id="3356756485" Name="Collectible" ObjectPath="\Events\Default Work Unit\Level\Collectible" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="3360608258" Name="Cricket" ObjectPath="\Events\Default Work Unit\Level\Cricket" MaxAttenuation="100.000000" DurationType="Unknown"/>
+				<Event Id="2401307071" Name="EnemyEffects" ObjectPath="\Events\Default Work Unit\Enemy\EnemyEffects" MaxAttenuation="200.000000" DurationType="Mixed" DurationMin="0.000000" DurationMax="Infinite"/>
+				<Event Id="1103958200" Name="EnemyWalk" ObjectPath="\Events\Default Work Unit\Enemy\EnemyWalk" MaxAttenuation="200.000000" DurationType="OneShot" DurationMin="0.220590" DurationMax="0.538328"/>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Footstep" DurationType="OneShot" DurationMin="0.037733" DurationMax="0.628953"/>
+				<Event Id="1533192012" Name="GameMusic" ObjectPath="\Events\Default Work Unit\Music\GameMusic" DurationType="Infinite"/>
+				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\Music\MenuMusic" DurationType="Infinite"/>
+				<Event Id="3978245845" Name="PickUP" ObjectPath="\Events\Default Work Unit\Level\PickUP" DurationType="OneShot" DurationMin="0.832925" DurationMax="0.832925"/>
+				<Event Id="1327972334" Name="PlayerSounds" ObjectPath="\Events\Default Work Unit\Player\PlayerSounds" DurationType="OneShot" DurationMin="0.304762" DurationMax="0.707007"/>
+				<Event Id="2791896842" Name="SingTrig" ObjectPath="\Events\Default Work Unit\Stinger\SingTrig" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Level\Wind" MaxAttenuation="50.000000" DurationType="Unknown"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="19481323" Language="SFX">
+					<ShortName>EscapeBeat.wav</ShortName>
+					<Path>SFX\EscapeBeat_72F6E016.wem</Path>
+				</File>
+				<File Id="71208128" Language="SFX">
+					<ShortName>CalmLoop\BaseBeat.wav</ShortName>
+					<Path>SFX\CalmLoop\BaseBeat_72F6E016.wem</Path>
+				</File>
+				<File Id="122943253" Language="SFX">
+					<ShortName>Footstep3.wav</ShortName>
+					<Path>SFX\Footstep3_10C4C929.wem</Path>
+				</File>
+				<File Id="127179682" Language="SFX">
+					<ShortName>EnemyAttack.wav</ShortName>
+					<Path>SFX\EnemyAttack_E4E92DBC_B45F0ABE.wem</Path>
+				</File>
+				<File Id="148232309" Language="SFX">
+					<ShortName>StingerHit.wav</ShortName>
+					<Path>SFX\StingerHit_D79FB2B7.wem</Path>
+				</File>
+				<File Id="155841629" Language="SFX">
+					<ShortName>ChaseMelody.wav</ShortName>
+					<Path>SFX\ChaseMelody_72F6E016.wem</Path>
+				</File>
+				<File Id="164284133" Language="SFX">
+					<ShortName>KeysJingle.wav</ShortName>
+					<Path>SFX\KeysJingle_72F6E016.wem</Path>
+				</File>
+				<File Id="225034285" Language="SFX">
+					<ShortName>Waterstep4.wav</ShortName>
+					<Path>SFX\Waterstep4_10C4C929.wem</Path>
+				</File>
+				<File Id="233477828" Language="SFX">
+					<ShortName>ChaseLoop.wav</ShortName>
+					<Path>SFX\ChaseLoop_72F6E016.wem</Path>
+				</File>
+				<File Id="242616848" Language="SFX">
+					<ShortName>EscapeLoop\EscapeDuo.wav</ShortName>
+					<Path>SFX\EscapeLoop\EscapeDuo_72F6E016.wem</Path>
+				</File>
+				<File Id="256231570" Language="SFX">
+					<ShortName>PlayerDeath.wav</ShortName>
+					<Path>SFX\PlayerDeath_10C4C929.wem</Path>
+				</File>
+				<File Id="277644352" Language="SFX">
+					<ShortName>CalmLoop\Kikout.wav</ShortName>
+					<Path>SFX\CalmLoop\Kikout_72F6E016.wem</Path>
+				</File>
+				<File Id="282551069" Language="SFX">
+					<ShortName>ChaseLoop\ChaseFlow.wav</ShortName>
+					<Path>SFX\ChaseLoop\ChaseFlow_72F6E016.wem</Path>
+				</File>
+				<File Id="297670963" Language="SFX">
+					<ShortName>WinFull.wav</ShortName>
+					<Path>SFX\WinFull_72F6E016.wem</Path>
+				</File>
+				<File Id="305104293" Language="SFX">
+					<ShortName>ChaseLoop\ChaseLowRun.wav</ShortName>
+					<Path>SFX\ChaseLoop\ChaseLowRun_72F6E016.wem</Path>
+				</File>
+				<File Id="380353001" Language="SFX">
+					<ShortName>Waterstep2.wav</ShortName>
+					<Path>SFX\Waterstep2_10C4C929.wem</Path>
+				</File>
+				<File Id="384186866" Language="SFX">
+					<ShortName>Grass1.wav</ShortName>
+					<Path>SFX\Grass1_10C4C929.wem</Path>
+				</File>
+				<File Id="386455947" Language="SFX">
+					<ShortName>LevelBackingNoise.wav</ShortName>
+					<Path>SFX\LevelBackingNoise_72F6E016.wem</Path>
+				</File>
+				<File Id="403720172" Language="SFX">
+					<ShortName>Waterstep1.wav</ShortName>
+					<Path>SFX\Waterstep1_10C4C929.wem</Path>
+				</File>
+				<File Id="514533099" Language="SFX">
+					<ShortName>EnemyChomp.wav</ShortName>
+					<Path>SFX\EnemyChomp_E4E92DBC.wem</Path>
+				</File>
+				<File Id="539317200" Language="SFX">
+					<ShortName>CalmLoop\BaseSec.wav</ShortName>
+					<Path>SFX\CalmLoop\BaseSec_72F6E016.wem</Path>
+				</File>
+				<File Id="542552752" Language="SFX">
+					<ShortName>EnemyChew.wav</ShortName>
+					<Path>SFX\EnemyChew_E4E92DBC_70CB7CAE.wem</Path>
+				</File>
+				<File Id="706314553" Language="SFX">
+					<ShortName>ChaseBaseBeat.wav</ShortName>
+					<Path>SFX\ChaseBaseBeat_72F6E016.wem</Path>
+				</File>
+				<File Id="717748139" Language="SFX">
+					<ShortName>EnemyStomp2.wav</ShortName>
+					<Path>SFX\EnemyStomp2_10C4C929_AD18FC91.wem</Path>
+				</File>
+				<File Id="721832687" Language="SFX">
+					<ShortName>CalmLoop\HighandSec.wav</ShortName>
+					<Path>SFX\CalmLoop\HighandSec_72F6E016.wem</Path>
+				</File>
+				<File Id="723511247" Language="SFX">
+					<ShortName>Duo.wav</ShortName>
+					<Path>SFX\Duo_72F6E016.wem</Path>
+				</File>
+				<File Id="729658140" Language="SFX">
+					<ShortName>EnemyStomp1.wav</ShortName>
+					<Path>SFX\EnemyStomp1_10C4C929_AD18FC91.wem</Path>
+				</File>
+				<File Id="767503946" Language="SFX">
+					<ShortName>EnemyRoar.wav</ShortName>
+					<Path>SFX\EnemyRoar_E4E92DBC_A04C62EA.wem</Path>
+				</File>
+				<File Id="773167429" Language="SFX">
+					<ShortName>Grass2.wav</ShortName>
+					<Path>SFX\Grass2_10C4C929.wem</Path>
+				</File>
+				<File Id="774440119" Language="SFX">
+					<ShortName>CalmLoop.wav</ShortName>
+					<Path>SFX\CalmLoop_72F6E016.wem</Path>
+				</File>
+				<File Id="782420752" Language="SFX">
+					<ShortName>ChaseLoop\ChaseHit.wav</ShortName>
+					<Path>SFX\ChaseLoop\ChaseHit_72F6E016.wem</Path>
+				</File>
+				<File Id="828926162" Language="SFX">
+					<ShortName>Waterstep3.wav</ShortName>
+					<Path>SFX\Waterstep3_10C4C929.wem</Path>
+				</File>
+				<File Id="852123412" Language="SFX">
+					<ShortName>CalmLoop\HighHit.wav</ShortName>
+					<Path>SFX\CalmLoop\HighHit_72F6E016.wem</Path>
+				</File>
+				<File Id="872436890" Language="SFX">
+					<ShortName>FlashlightClick.wav</ShortName>
+					<Path>SFX\FlashlightClick_10C4C929.wem</Path>
+				</File>
+				<File Id="873221746" Language="SFX">
+					<ShortName>Footstep2.wav</ShortName>
+					<Path>SFX\Footstep2_10C4C929.wem</Path>
+				</File>
+				<File Id="898757866" Language="SFX">
+					<ShortName>Footstep1.wav</ShortName>
+					<Path>SFX\Footstep1_10C4C929.wem</Path>
+				</File>
+				<File Id="899281820" Language="SFX">
+					<ShortName>EnemyBoneSnap.wav</ShortName>
+					<Path>SFX\EnemyBoneSnap_E4E92DBC_A157FA83.wem</Path>
+				</File>
+				<File Id="906245310" Language="SFX">
+					<ShortName>EnemyStomp3.wav</ShortName>
+					<Path>SFX\EnemyStomp3_10C4C929_AD18FC91.wem</Path>
+				</File>
+				<File Id="924868616" Language="SFX">
+					<ShortName>PickUp.wav</ShortName>
+					<Path>SFX\PickUp_E4E92DBC_7EF1F11F.wem</Path>
+				</File>
+				<File Id="925312917" Language="SFX">
+					<ShortName>EscapeLoop\EscapeAccent.wav</ShortName>
+					<Path>SFX\EscapeLoop\EscapeAccent_72F6E016.wem</Path>
+				</File>
+				<File Id="979898915" Language="SFX">
+					<ShortName>CalmLoop\KickandSec.wav</ShortName>
+					<Path>SFX\CalmLoop\KickandSec_72F6E016.wem</Path>
+				</File>
+				<File Id="1059849203" Language="SFX">
+					<ShortName>Grass3.wav</ShortName>
+					<Path>SFX\Grass3_10C4C929.wem</Path>
+				</File>
+				<File Id="1064018975" Language="SFX">
+					<ShortName>EscapeLoop\EscapeHigh.wav</ShortName>
+					<Path>SFX\EscapeLoop\EscapeHigh_72F6E016.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

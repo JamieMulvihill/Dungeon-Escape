@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948a53952eec7ac4eb23ec570a18b7e9, type: 3}
+  m_Name: F1C641CE-9EA9-4727-A18D-CF7200CE25E1
+  m_EditorClassIdentifier: 
+  objectName: Chase
+  id: 417490929
+  guid: F1C641CE-9EA9-4727-A18D-CF7200CE25E1
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 93a78d74c882a5a4f9ab64234fda761d, type: 2}

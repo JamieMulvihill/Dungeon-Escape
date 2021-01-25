@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{673DF192-F54B-4F90-97B8-EBFBED1DF389}" SchemaVersion="94" RootDocumentID="{13E13037-54C7-45A7-B315-61AE9872B2A6}">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{673DF192-F54B-4F90-97B8-EBFBED1DF389}" OwnerID="{13E13037-54C7-45A7-B315-61AE9872B2A6}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="MenuMusic" ID="{551B582A-135C-48AF-ADC3-1C7A2D9C5D1D}" PersistMode="Reference"/>
+				<WorkUnit Name="InGameMusic" ID="{A9DD22FC-2C85-4C11-8047-F425BE48F9C0}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

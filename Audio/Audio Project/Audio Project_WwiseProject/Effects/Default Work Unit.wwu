@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}" SchemaVersion="94">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{7F83C4D9-37FF-40BB-80CA-E6F6170D2275}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Roar_EQ" ID="{6A78A5AB-97BC-4599-AD63-51F7F0AAF13E}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="6957"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="950"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="1.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="PickUp" ID="{E1E5E22B-1919-4FC3-8B12-252829073F6B}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="10"/>
+						<Property Name="DryLevel" Type="Real32" Value="-2"/>
+						<Property Name="Input" Type="int32" Value="2"/>
+						<Property Name="Pitch" Type="Real32" Value="-1700"/>
+						<Property Name="SyncDry" Type="bool" Value="True"/>
+						<Property Name="WetLevel" Type="Real32" Value="-2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Grass" ID="{BD3E23AD-288A-4DCE-A84E-F69174134420}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.15"/>
+						<Property Name="OutputGain" Type="Real32" Value="-5.6"/>
+						<Property Name="Ratio" Type="Real32" Value="3.1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.2"/>
+						<Property Name="Threshold" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{325D5D76-5E2B-4E92-9EDF-8100BA313115}" ShortID="1046488699">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="TipToe_Compressor" ID="{DCBAF6EE-62DE-4CC1-90D4-C3D810B73817}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{30FA64B6-F3BD-4995-BDBE-55EB1986D8F5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-96.3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="SoftGrass" ID="{8AB38F03-A909-479B-914A-7F1AE105F881}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+					<PropertyList>
+						<Property Name="LookAhead" Type="Real32" Value="0.015"/>
+						<Property Name="Ratio" Type="Real32" Value="15"/>
+						<Property Name="Threshold" Type="Real32" Value="-82.6"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Delay_Echo" ID="{F378435F-23C4-4829-82E3-3E8520E52742}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.2"/>
+						<Property Name="Feedback" Type="Real32" Value="21"/>
+						<Property Name="WetDryMix" Type="Real32" Value="15.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Wall_Compressor" ID="{B6AA118A-2013-4C68-BECE-D4FE3053C48C}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="Threshold" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{AC9E961D-375E-4354-8578-ECC7991BC293}" ShortID="986419628">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Wall_Compressor" ID="{85B0715F-E6B4-4443-97D6-A26B69890F2D}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{23D33EB0-AB18-4F55-9151-A0F4B98A65B3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-96.3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Enemy_Eating" ID="{C25A2DCD-5F56-4A10-9787-5201554436DD}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="15"/>
+						<Property Name="DryLevel" Type="Real32" Value="-27"/>
+						<Property Name="Pitch" Type="Real32" Value="-500"/>
+						<Property Name="WetLevel" Type="Real32" Value="-6"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="BoneSNap" ID="{BAF5A2C8-3FC2-427A-B1BC-F4B9DCF4079A}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2507"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Cricket_Pitch" ID="{5AF209DF-D0C9-4ED5-8DDB-BCDB3F7D14C3}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="Pitch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{233E00BC-7558-4158-AF2F-E162D1089A3B}" ShortID="470205208">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Cricket_Pitch" ID="{B24387E2-C329-4F95-8302-65A6F0B728E5}" WorkUnitID="{0E0BB5BB-F0E0-417F-AFEE-9C40C8813B3B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5BD4099C-CBEF-47C1-83E2-8D11B4E5DA36}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-220.84871</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

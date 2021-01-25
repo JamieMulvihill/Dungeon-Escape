@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{61062817-AD8A-421D-9B71-CDC1B7D5A377}" SchemaVersion="94" RootDocumentID="{AB0EE49C-EC16-4597-9A65-9BAEC34356C4}">
+	<Triggers>
+		<WorkUnit Name="Music" ID="{61062817-AD8A-421D-9B71-CDC1B7D5A377}" OwnerID="{AB0EE49C-EC16-4597-9A65-9BAEC34356C4}" PersistMode="Nested">
+			<ChildrenList>
+				<Trigger Name="PickUpStinger" ID="{0CFC1179-7C55-46EF-9FA0-B9A53384262A}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>
